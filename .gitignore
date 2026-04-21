@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS / build artifacts
+build/
+install/
+log/
+
+# Local media and archives
+*.zip
+*.mp4
+*.pptx
+*사본
+docs/archive/
+
+# OS / editor
+.vscode/
+.idea/
+Thumbs.db

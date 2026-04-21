@@ -1,0 +1,6 @@
+# pip requirements for bio-transport-automation
+# ROS 2 packages such as rclpy, launch, std_msgs and Doosan driver packages
+# should be installed via apt/rosdep, not via pip here.
+
+# UI
+PySide6>=6.5
