@@ -104,5 +104,6 @@ ros2 run bio_transport bio_ui
 ## 참고
 
 - 흐름도는 [docs/Flow_chart.png](c:/rokey/bio-transport-automation/docs/Flow_chart.png) 에 있습니다.
-- 발표자료와 대용량 보관 파일은 `docs/archive/`에 `bio-transport-automation-*` 형식으로 정리했습니다.
+- 데모 영상은 `docs/bio-transport-automation-demo-video.mp4`로 관리합니다.
+- 발표자료와 대용량 보관 파일은 로컬 `docs/archive/`에 `bio-transport-automation-*` 형식으로 정리했습니다.
 - 라이선스 파일은 `src/bio_transport/LICENSE`를 참고하면 됩니다.
