@@ -16,7 +16,6 @@ log/
 docs/archive/**
 !docs/
 !docs/*.png
-!docs/*.mp4
 
 # OS / editor
 .vscode/
