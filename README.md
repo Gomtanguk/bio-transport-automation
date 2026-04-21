@@ -2,6 +2,12 @@
 
 바이오뱅크 워크셀에서 RACK 이송과 튜브 이송을 ROS 2 Action 기반으로 통합 제어하는 프로젝트입니다. UI, 메인 오케스트레이터, 로봇 제어 노드, 인터페이스 패키지, Doosan 드라이버 소스를 한 저장소에서 관리합니다.
 
+## Quick Summary
+
+- Domain: 바이오뱅크 검체 이송 자동화
+- Stack: ROS 2 Humble, Python, PySide6, Doosan ROS 2
+- Key Packages: `bio_transport`, `bio_transport_interfaces`, `doosan-robot2`
+
 ## 구조
 
 ```text
@@ -98,5 +104,5 @@ ros2 run bio_transport bio_ui
 ## 참고
 
 - 흐름도는 [docs/Flow_chart.png](c:/rokey/bio-transport-automation/docs/Flow_chart.png) 에 있습니다.
-- 발표자료와 대용량 보관 파일은 `docs/archive/`로 분리해 두었습니다.
+- 발표자료와 대용량 보관 파일은 `docs/archive/`에 `bio-transport-automation-*` 형식으로 정리했습니다.
 - 라이선스 파일은 `src/bio_transport/LICENSE`를 참고하면 됩니다.
